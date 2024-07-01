@@ -48,8 +48,7 @@ public class Principal {
                 opcion = scanner.nextInt();
                 scanner.nextLine();
             } catch (InputMismatchException e) {
-                System.out.println("Por favor, intente nuevamente:\n");
-                opcion = scanner.nextInt();
+                System.out.println("Entrada inválida\n");
                 scanner.nextLine();
                 continue;
             }
@@ -170,11 +169,11 @@ public class Principal {
 
         switch (idioma){
             case "en":
-                 idiomaElegido = Idioma.fromEspanol("Ingles");
+                idiomaElegido = Idioma.fromEspanol("Ingles");
                 break;
             case "es":
-                 idiomaElegido = Idioma.fromEspanol("Espanol");
-                 break;
+                idiomaElegido = Idioma.fromEspanol("Espanol");
+                break;
             case "pt":
                 idiomaElegido = Idioma.fromEspanol("Portugues");
                 break;

@@ -66,9 +66,11 @@ public class Autor {
 
     @Override
     public String toString() {
-        return "Autor: " +
-                "nombre='" + nombre + "'\n" +
-                "anioNacimiento=" + anioNacimiento + "\n" +
-                "anioMuerte=" + anioMuerte + "\n";
+        return
+                "**********AUTOR:********** \n" +
+                        "nombre='" + nombre + "'\n" +
+                        "anioNacimiento=" + anioNacimiento + "\n" +
+                        "anioMuerte=" + anioMuerte + "\n" +
+                        "************************* \n";
     }
 }
